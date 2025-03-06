@@ -1,0 +1,308 @@
+<!DocType html>
+<html>
+    <head>
+        
+       
+        
+
+       <link rel="stylesheet" href="motion.css">
+       
+
+    </head>
+    <body>
+        <section id="home" style="display:fixed;" >
+        <div style="height: 100px;"></div>
+        
+     
+        
+            <nav style="position: fixed; top: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.8); 
+            padding: 10px 0; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); z-index: 1000; 
+            display: flex; justify-content: center; align-items: center;">
+    <ul style="list-style: none; padding: 0; margin: 0; display: flex; align-items: center; gap: 20px;">
+        <li style="display: inline;">
+            <button onclick="location.href='#home'" 
+                    style="background: transparent; color: white; border: none; font-size: 18px; 
+                           cursor: pointer; padding: 10px 15px;">
+                Home
+            </button>
+        </li>
+        <li style="display: inline;">
+            <button onclick="location.href='#services'" 
+                    style="background: transparent; color: white; border: none; font-size: 18px; 
+                           cursor: pointer; padding: 10px 15px;">
+                Services
+            </button>
+        </li>
+        
+        <h1 style="color: white; font-size: 24px; margin: 0 30px; font-weight: bold;">MOTION UI</h1>
+
+        <li style="display: inline;">
+            <button onclick="location.href='#about'" 
+                    style="background: transparent; color: white; border: none; font-size: 18px; 
+                           cursor: pointer; padding: 10px 15px;">
+                About
+            </button>
+        </li>
+        <li style="display: inline;">
+            <button onclick="location.href='#contact'" 
+                    style="background: transparent; color: white; border: none; font-size: 18px; 
+                           cursor: pointer; padding: 10px 15px;">
+                Contact
+            </button>
+        </li>
+    </ul>
+</nav>
+
+<!-- Add margin so content is not hidden under the fixed navbar -->
+<div style="margin-top: 60px;"></div>
+
+          <!-- <div class="spline-container">
+           <iframe src="https://my.spline.design/radialpattern-0079c8f07ebad7c5df16ad05068d9b64/" 
+                    width="100%" height="100%" frameborder="0" 
+                    allowfullscreen></iframe> 
+        </div> -->
+      
+ <div class="cursor-follower"></div> 
+ 
+      
+ <iframe class="iframe-background" src="https://my.spline.design/particleshand-87593364fa85082b1730a4f9f52d7c8a/"></iframe>
+
+<div class="welcome">
+    <iframe src="https://my.spline.design/animatedshapeblend-a176b6ab26252f4dcb240d1446364c79/" 
+                     width="100%" height="100%" frameborder="0" 
+                     allowfullscreen style="border-radius: 10px;" ></iframe> 
+</section>               
+    <!--<h2>Welcome to Motion UI</h2>
+    <p>Our team of experts is here to help you craft seamless digital experiences that will-->
+
+ <script>
+            // Function for gentle movement with trailing effect
+            let cursorFollower = document.querySelector('.cursor-follower');
+            let x = 0, y = 0; 
+            let mouseX = 0, mouseY = 0;
+        
+            document.addEventListener('mousemove', (e) => {
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+            });
+        
+            function updateCursor() {
+                x += (mouseX - x) * 0.1; 
+                y += (mouseY - y) * 0.1; 
+                cursorFollower.style.transform = `translate(${x}px, ${y}px)`;
+                requestAnimationFrame(updateCursor); 
+            }
+        
+            updateCursor(); // Start the animation
+</script>     
+</div>
+<div>
+    <section id="services"></section>
+    <h2 style="text-align: center;font-size: cm;color: white;">Gaming UI/UX Creations</h2>
+    <p style="color: rgb(255, 255, 255);text-align: center;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Dive into immersive gaming experiences with my cutting-edge UI/UX designs <br>crafted for seamless gameplay and stunning visuals. <br>I specialize in designing intuitive interfaces, responsive layouts, anddynamic interactions that enhance player engagement.<br>Whether it's futuristic HUDs, sleek menu systems, or vibrant in-game elements, my designs bring games to life with fluid navigation,<br> striking aesthetics, and optimized usability. Explore my portfolio and experience gaming interfaces redefined!</p>
+</div>
+
+<div class="grid-container1"> 
+    <video src="ex4.mp4" loop autoplay muted playsinline></video>
+    <video src="ex3.mp4" loop autoplay muted playsinline></video>
+</div>
+
+<div style="height: 50px;"></div>
+
+<h2 style="text-align: center;font-size: cm;color:white">E-Commerce Websites</h2>
+<p style="color: rgb(255, 255, 255);text-align: center;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Crafting seamless and engaging shopping experiences is at the heart of my e-commerce UI/UX designs. <br>I focus on intuitive navigation, visually appealing product displays, and smooth checkout processes to enhance user satisfaction and drive conversions.<br> From modern storefront layouts to personalized user interactions, my designs ensure a seamless blend of aesthetics and functionality.<br>Explore my portfolio to see how I create high-performing e-commerce interfaces that boost engagement and sales.</p>
+<div class="grid-container2">
+        <img src="photo-output (3).jpeg" alt="Image 3" >
+        <img src="photo-output.jpeg" alt="Image 4" >
+</div>
+<div style="height: 50px;"></div>
+
+
+<h2 style="text-align: center;font-size: cm;color:white">Mobile Applications</h2>
+<p style="color: rgb(255, 255, 255);text-align: center;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Designing intuitive and visually engaging mobile experiences that enhance usability and engagement.<br> My mobile app UI/UX designs focus on seamless navigation, responsive layouts, and immersive interactions, ensuring a smooth user journey across devices.<br> Whether it's sleek dashboards, interactive elements, or fluid animations, I create interfaces that blend aesthetics with functionality.</p>
+<div class="grid-container3"> 
+
+        <img src="photo-output (1).jpeg" alt="Image 5" loop>
+        <img src="photo-output (2).jpeg" alt="Image 6">
+</div>
+</section>
+<div style="height: 50px;"></div>
+<hr style="width: 80%;">
+
+
+<section id="about">
+<div style="height: 50px;"></div>
+
+<h2 style="text-align: center;font-size: cm;color:white">About Me</h2>
+
+
+<div style="width: 70%; height: auto; background-color: rgba(255, 255, 255, 0.189); 
+            border: 2px solid rgba(255, 255, 255, 0.25); display: flex; flex-direction: row;
+            align-items: center; justify-content: space-between; text-align: left; 
+            border-radius: 20px; box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.546); 
+            padding: 20px; margin: 50px auto;">
+    
+    <!-- Left Side (Text) -->
+    <div style="flex: 1;">
+        <h3 style="color: white; font-size: 30px; font-family: Arial, sans-serif; margin: 0;">Hi, I'm Bathiya</h3>
+        <h4 style="color: rgba(255, 255, 255, 0.7); margin: 5px 0;font-family: Arial, sans-serif;">Freelance UI/UX Designer</h4>
+        <div style="height: 20px;"></div>
+        <p style="color: white; margin: 10px 0; line-height: 1.5;font-family: Arial, sans-serif;">
+            Passionate about crafting intuitive, user-friendly digital experiences. <br>
+            With a deep understanding of design principles, user behavior, and the latest <br> 
+            industry trends,I specialize in creating sleek, functional interfaces that enhance <br>
+            engagement and usability.
+        </p>
+        <p style="color: white;font-family: Arial, sans-serif;">
+            From wireframing and prototyping to full-scale UI designs,<br>
+            I focus on delivering visually compelling and highly interactive solutions <br>
+            tailored to meet user needs. Whether it's a mobile app,website,<br>
+            or digital product, I strive to bridge the gap between aesthetics<br>
+            and functionality,ensuring a seamless user experience.
+        </p>
+        
+
+            <p style="color: white;font-family: Arial, sans-serif;">Let's collaborate and bring your vision to life! </p>
+            <button class="contact-button" onclick="location.href='#contact'">
+                Contact Now
+            </button>
+        </div>
+    
+
+    <!-- Right Side (Image) -->
+    <div>
+        <img src="photo-output.png" alt="Icon" 
+             style="width: 400px; height: 400px; border-radius: 10px; 
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
+    </div>
+
+</div>
+<!--
+<div class="flex-container">
+          <img src="magnifyingglass.png"width="40"hight="40">
+          <div class="text">Crafting Seamless Digital Experiences</div>
+      </div>-->
+
+
+<div style="height: 100px;"></div>
+
+<section id="contact"></section>
+ 
+<h2 style="text-align: center;font-size: cm;color:white">Contact Us</h2>
+<div class="footer-1">
+      <div class="form-container" >
+        <h2 style="color: white; font-size: 20px; font-family: Arial, sans-serif; margin: 0;">Drop an E-mail</h2>
+        <form action="https://formspree.io/f/xnnjekpq" method="POST">
+            <p style="color: rgba(255, 255, 255, 0.743); font-size: 15px; font-family: Arial, sans-serif; margin: 0;">Your email:</p>
+            <input type="email" name="email" required>
+    
+            <p style="color: rgba(255, 255, 255, 0.743); font-size: 15px; font-family: Arial, sans-serif; margin: 0;">Your message:</p>
+            <textarea name="message" required></textarea>
+    
+            <button type="submit" class="btn">Send</button>
+        </form>
+        
+    </div>
+    <div class="form-container" style="justify-content: center;padding-left: 20px;text-align: center;">
+        <img src="vecteezy_whatsapp-logo-png-icon_16716480.png" alt="Icon" 
+             style="width: 60px; height: 60px; border-radius: 10px; 
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
+        
+        <p style="color: white;font-family: Arial, sans-serif; font-size: 18px;">(+94) 71 793 7723<br>(+94) 72 894 4109</p>
+        <p style="color: white;font-family: Arial, sans-serif;">bhathiya205@gmail.com</p>
+
+    </div>
+</div>
+
+<!--footer section with icons-->
+<div class="footer-3"> 
+
+    <div class="content">
+        <p style="font-size: 40px; font-family: Arial, sans-serif; font-weight: 900;margin: 0;background: linear-gradient(to right, #c1004d, #ee03ff5a); 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        display: inline;">Motion UI </p>
+        <p style="color: rgba(255, 255, 255, 0.804); font-size: 20px; font-family: Arial, sans-serif; margin: 0;">Where Motion Meets Experience.</p>
+    </div> 
+    <div>
+        <ul style="list-style: none; padding: 0; margin: 0; display: flex; align-items: center; gap: 20px;">
+     
+       
+            <li style="display: inline;">
+                <button onclick="location.href='#services'" 
+                        style="background: transparent; color: white; border: none; font-size: 18px; 
+                               cursor: pointer; padding: 10px 15px;">
+                    Services
+                </button>
+            </li>
+            <li style="display: inline;">
+                <button onclick="location.href='#about'" 
+                        style="background: transparent; color: white; border: none; font-size: 18px; 
+                               cursor: pointer; padding: 10px 15px;">
+                    About
+                </button>
+            </li>
+            <li style="display: inline;">
+                <button onclick="location.href='#contact'" 
+                        style="background: transparent; color: white; border: none; font-size: 18px; 
+                               cursor: pointer; padding: 10px 15px;">
+                    Contact
+                </button>
+            </li>
+            <li style="display: inline;">
+                <button onclick="location.href=''" 
+                        style="background: transparent; color: white; border: none; font-size: 18px; 
+                               cursor: pointer; padding: 10px 15px;">
+                    Blog
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <button onclick="window.open('https://youtube.com/@astrofy2455?si=dOI8ph63YqwCVaQM')"style="background: transparent; color: white; border: none; font-size: 18px; 
+               cursor: pointer; padding: 10px 15px;">
+        
+               <img src="icons8-youtube-250.png" alt="Icon" 
+                    style="width: 30px; height: 30px; border-radius: 10px; 
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
+    </button>
+
+    <button onclick="window.open('https://www.facebook.com/bhathiya.thilakarathna.3/')"style="background: transparent; color: white; border: none; font-size: 18px; 
+               cursor: pointer; padding: 10px 15px;">
+               <img src="icons8-facebook-250.png" alt="Icon" 
+                    style="width: 30px; height: 30px; border-radius: 10px; 
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
+     </button>
+
+     <button onclick="window.open('https://www.instagram.com/baathi_yy/')"style="background: transparent; color: white; border: none; font-size: 18px; 
+               cursor: pointer; padding: 10px 15px;">
+               <img src="icons8-instagram-256.png" alt="Icon" 
+                    style="width: 30px; height: 30px; border-radius: 10px; 
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
+    </button>
+
+        
+    </div>
+
+    
+</div>
+  
+</form>
+<!--last footer -->
+<hr style="width: 100%">
+<div class="footer-2"> 
+   <p style="color: rgba(255, 255, 255, 0.637);font-family: Arial, sans-serif;">&#169 2025 Motion Ui.All rights reserved</p>
+   <p style="color: rgba(255, 255, 255, 0.637);font-family: Arial, sans-serif;">Design and Development by Bathiya Thilakaratne</p>
+   
+
+    </div>
+</div>
+
+    </body>
+
+
+
+
+</html>
+
